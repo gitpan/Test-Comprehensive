@@ -1,5 +1,9 @@
 Revision history for Perl extension Test::Comprehensive.
 
+1.01  Mon Sep  2 23:26:01 CEST 2002
+	- added named arguments ('tests', 'only') and reflection subs
+	  (packages(), files(), num_tests()), and docs for the same.
+
 1.00  Mon Sep  2 15:40:21 2002
 	- original version; created by h2xs 1.22 with options
 		-XAn Test::Comprehensive

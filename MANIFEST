@@ -4,3 +4,8 @@ Makefile.PL
 MANIFEST
 README
 t/01comprehensive.t
+t/02extra.t
+t/03only_versions.t
+t/04only_pod_extra.t
+t/05only_pod_use_extra.t
+t/06only_pod_versions_extra.t
