@@ -1,0 +1,47 @@
+NAME
+    Test::Comprehensive - perform tests on all modules of a distribution
+
+SYNOPSIS
+      $ cat t/01comprehensive.t
+      use Test::Comprehensive;
+      $ make test
+      ...
+
+DESCRIPTION
+    When using this module in a test script, it goes through all the modules
+    in your distribution, checks their POD, checks that they compile ok and
+    checks that they all define the same $VERSION.
+
+    It defines its own testing plan, so you can't use it in conjunction with
+    other "Test::*" modules in the same file. Therefore it's recommended
+    that you just create a one-line test script as shown in the SYNOPSIS
+    above.
+
+BUGS
+    If you find any bugs or oddities, please do inform the author.
+
+INSTALLATION
+    See perlmodinstall for information and options on installing Perl
+    modules.
+
+AVAILABILITY
+    The latest version of this module is available from the Comprehensive
+    Perl Archive Network (CPAN). Visit <http://www.perl.com/CPAN/> to find a
+    CPAN site near you. Or see
+    <http://www.perl.com/CPAN/authors/id/M/MA/MARCEL/>.
+
+VERSION
+    This document describes version 1.00 of "Test::Comprehensive".
+
+AUTHOR
+    Marcel Grünauer <marcel@cpan.org>
+
+COPYRIGHT
+    Copyright 2002 Marcel Grünauer. All rights reserved.
+
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
+SEE ALSO
+    perl(1), Test::More(3pm), Test::Pod(3pm).
+

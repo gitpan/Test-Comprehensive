@@ -1,0 +1,6 @@
+Revision history for Perl extension Test::Comprehensive.
+
+1.00  Mon Sep  2 15:40:21 2002
+	- original version; created by h2xs 1.22 with options
+		-XAn Test::Comprehensive
+

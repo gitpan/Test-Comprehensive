@@ -1,0 +1,6 @@
+Changes
+lib/Test/Comprehensive.pm
+Makefile.PL
+MANIFEST
+README
+t/01comprehensive.t
